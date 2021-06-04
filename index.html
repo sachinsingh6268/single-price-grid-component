@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon-32x32.png">
+    <title>Frontend Mentor |Single price grid component
+    </title>  
+      <style>
+          @media screen and (min-width:555px){
+            .innerbox-2{
+               width:70%;
+               margin:auto;
+               display:flex;
+           }
+           .innerbox-1{
+                 
+                 
+                width:70%; 
+                margin:auto;
+            }
+          }
+           
+           *{
+               margin:0;
+               padding:0;
+               box-sizing:border-box;
+               font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+           }
+           .mainbox{
+               background-image:url('../images/image1..jpg');
+                
+               background-repeat:no-repeat;
+               padding:7% 0;
+               
+
+           }
+             
+
+            
+           .box-1{
+                
+               margin:auto;
+               padding:20px; 
+               border-radius:7px 7px 0 0;
+               background-color:#fff;
+            
+           }
+            
+           .innerbox-2 .box-2{
+               background-color:rgb(20, 95, 95);
+               border-bottom-left-radius:7px;
+               flex-basis:50%;
+               padding:20px;
+
+           }
+           @media screen and (max-width:554px){
+              .innerbox-1{
+                  width:80%;
+                  margin:auto;
+              }
+              .innerbox-2{
+                  width:80%;
+                  margin:auto;
+              }
+              .innerbox-2 .box-3{
+                  border-bottom-left-radius:7px;
+
+              }
+              .innerbox-2 .box-2{
+                  border-bottom-left-radius: 0px;
+              }
+          }
+           .innerbox-2 .box-3{
+               background-color:rgb(24, 190, 190);
+               border-bottom-right-radius:7px;
+               flex-basis:50%;
+               padding:20px;
+           }
+           .box-1 h1{
+               padding:10px 0;
+               color:rgb(112, 197, 42);
+           }
+           .box-1 h2{
+               padding:10px 0;
+               color:rgb(199, 224, 84);
+           }
+           .box-1 p{
+               padding:10px 0;
+               color:rgba(170, 175, 175, 0.705);
+           }
+           .box-2 h2{
+               padding:10px 0;
+               color:rgb(236, 247, 247);
+           }
+           .box-2 p{
+               padding:10px 0;
+               color:rgb(226, 231, 231);
+           }
+           .box-2 h3{
+               padding:10px 0;
+               color:rgb(194, 199, 199);
+           }
+           button{
+               padding:10px 0; 
+               width:100%;
+               color:rgb(237, 238, 231);
+               background-color:rgba(145, 190, 19, 0.897);
+               border:0;
+               border-radius:5px;
+           }
+           button:hover{
+               background-color:darkcyan;
+           }
+           .box-3 h2{
+               padding:10px 0;
+               color:rgba(208, 219, 219, 0.979);
+           }
+           .box-3 ul{
+               list-style-type:none;
+               color:rgb(196, 204, 204);
+           }
+            
+      </style>
+</head>
+<body>
+    <div class="mainbox">
+        <div class="innerbox-1">
+                  <div class="box-1">
+                    <h1>Join our community</h1>
+                    <h2>30-day,hassle-free money back gurantee</h2>
+                    <p>
+                     Gain access to our full library of tutorial along with expert code reviews.Perfect for any developers who are serious about honing their skills.
+                    </p>
+                 </div>
+         </div>
+        <div class="innerbox-2">
+                 <div class="box-2">
+                    <h2>Monthly Subscription</h2>
+                    <p><strong>$29</strong> per month</p>
+                    <h3>Full access for less than $1 a day</h3>
+                    <button>Sign Up</button>
+                 </div>
+                 <div class="box-3">
+                     <h2>Why Us</h2>
+                      <ul>
+                          <li>Tutorials by industry experts</li>
+                          <li>Peer & expert code review</li>
+                          <li>Coding exercises</li>
+                          <li>Access to our GitHub repos</li>
+                          <li>Community forum</li>
+                          <li>Flashcard decks</li>
+                          <li>New vedios every week</li>
+                      </ul>
+                 </div>
+        </div>
+             
+        </div>
+     
+</body>
+</html>
